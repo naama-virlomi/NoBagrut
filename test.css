@@ -1,0 +1,170 @@
+.btn {
+    background-color: #4E71A8;
+    background-image: url("images/icons/facebook-f.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none; 
+}
+
+.btn:active , .btn:focus,.btn:any-link {
+    border: none;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    fill: #4E71A8;
+    background-image: url("facebook.svg");
+}
+
+.main-nav {
+    display: inline;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 6px 16px 6px;
+    text-decoration: none;
+    display: block;
+    background-color:   goldenrod;
+    border :1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;height: 25px;
+;}
+
+.dropdown:hover .dropdown-content a {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:auto;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.icon-nav {
+    margin-right: 10px;
+}
+
+.icon-nav a {
+    width:40px;
+    margin: 0px auto;
+}
+.icon-nav a img{
+    height: 30px;
+    max-width: 30px;
+}
+
+/* the nav bar main items */ 
+.menu >div {
+    position: relative;
+    width:80px;
+    height: 22px;
+    border-right: 1px solid black;
+    text-align: center;
+    overflow: hidden;/*privent from sidebar to apear*/
+}
+
+.sub-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #FFFFDD;
+    border: 03px  solid black;
+    overflow:visible;
+    z-index: 1;
+}
+
+/*the nav bar anchor text*/
+.menu>div a {
+    width:80px;
+    height: 20px;
+    text-align: center;
+}
+ 
+.menu>div:last-child {
+    width:80px;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+.menu>div:hover {
+    color: #FFFFE7;
+    background-color: #78A3B3;
+}
+
+.menu div:hover a {
+    color: #FFFFE7;
+}
+.sub-menu {
+    background :red;
+    border:3-x double orange;
+    width: 120px;
+    font-size :16px;
+} 
+
+/*
+.text-menu div:hover.sub-menu div {
+    background-color: red;
+}
+.text-menu div:hover .sub-menu a{
+    border-bottom: 1px solid gray; 
+    text-align: right;
+    text-overflow: auto;
+    color: #78A3B3;
+    font-size :16px;
+}
+*/
+/*
+.text-menu div:hover .sub-menu {
+    display: flex;
+    position: relative;
+}
+
+.text-menu div:hover .sub-menu a{
+   font-size: 18px;
+   overflow: visible;
+   text-align: right;
+
+}
+*/
+
+
+
+
+/* Dropdown Button 
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+*/
